@@ -1,0 +1,141 @@
+
+/* navigation bar */
+
+#navbar ul li {
+    font-size: 1.3em;
+}
+
+#navbar ul li a {
+    position: absolute;
+    top: 85px;
+}
+
+h1 {
+    left: 89px;
+    padding-right: 20px;
+}
+
+#logo {
+    position: relative;
+    left: 34px;
+    top: -25px;
+    height: 22px;
+    width: 27px;
+}
+
+/* home section */
+
+#headline {
+    font-size: 2.5em;
+    display: inline-block;
+    width: 55vw;
+    margin: 2px -196px 40px 23px;
+    padding: 9px 25px 4px 22px;
+}
+
+#images{
+    display: inline-block;
+    height: 60vh;
+}
+
+/* about section */
+
+#about {
+    margin: 24px 16px 30px 28px;
+    padding: 17px 19px 20px 17px
+
+}
+
+#about1 p {
+    font-size: 2.5em;
+    line-height: 43px;
+    width: 70vw;
+    padding: 36px 0px;
+}
+
+#about2 p {
+    font-size: 2em;
+    padding: 14px 12px;
+    line-height: 38px;
+}
+
+/* clients */
+.container{
+    width: 50%;
+}
+.clients p {
+    position: relative;
+    left: 8%;
+    top: 92%;
+    font-size: 1.3rem;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    height: 945px;
+}
+
+.clients ul li {
+    font-size: 1.2rem;
+}
+
+#clients1, #clients2{
+    position: relative;
+    left: 8%;
+    width: 54%;
+}
+
+/* footer */
+
+.footer {
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid {
+    grid-template-rows: repeat(2, 15vh);
+    grid-row-gap: 1rem;
+}
+
+#contact {
+    font-size: 2rem;
+    position: relative;
+    left: -20%;
+    top: -30%;
+}
+
+#email {
+    font-size: 2.5rem;
+    position: relative;
+    left: -15%;
+    top: -439%;
+}
+
+#social-media-icons {
+    align-items: center;
+}
+
+.grid ul{
+    position: relative;
+    top: -110%;
+}
+
+/* footer 2 */
+
+#footer2 {
+    height: 4vh;
+    font-size: 1.3rem;
+    width: 70%;
+}
+
+#footer2 a {
+    position: absolute;
+    right: 14%;
+}
+
+#footer2 span {
+    position: absolute;
+    left: 10%;
+}
